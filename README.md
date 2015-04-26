@@ -1,4 +1,4 @@
-# Craft Summit 2015 - Aaron's API Code
+# Craft Summit 2015 - API Code
 
 Here is some code I used for the 2015 Craft Summit.
 

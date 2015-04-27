@@ -31,8 +31,16 @@ class DisneyPlugin extends BasePlugin
 		return 'https://github.com/aberkie';
 	}
 
+	public function registerSiteRoutes()
+	{
+	  return array(
+	    'api/attractions' => array('action' => 'disney/attractions'),
+	  );
+	}
+
 	public function hasCpSection()
 	{
 		return false;
 	}
+
 }
